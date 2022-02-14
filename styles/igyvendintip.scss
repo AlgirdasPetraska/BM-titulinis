@@ -1,0 +1,50 @@
+.igyvendintip {
+    padding: 0 0 120px;
+    margin: 120px 315px;
+
+&-container {
+    max-width: 1290px;
+    padding: 0 0 15px;
+    margin: auto;
+}   
+
+&-form {
+    float: right;
+    margin: -49px 0 10px;
+}
+
+&-rodomi {
+    display: inline-block;
+}
+
+&-form-item {
+    display: inline-block;
+    padding: 0 0 0 50px;
+}
+
+&-projektai {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1290px;
+    max-height: 630px;
+    padding: 40px 0 65px;
+    
+}
+
+&-item-tag {
+    background-color: white;
+    position: absolute;
+    
+    
+}
+
+&-all {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 12%;
+}
+
+}

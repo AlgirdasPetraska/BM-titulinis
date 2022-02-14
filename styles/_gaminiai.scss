@@ -1,0 +1,87 @@
+.gaminiai {    
+align-content: center;    
+    
+ 
+
+&-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+&-list-bigger {
+    display: flex;
+    justify-content: space-around;
+}
+
+&-list-bigger-item1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;  
+    padding: 10px;
+   
+}
+
+&-list-item-tag-b {
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+}
+
+&-text {
+    flex: 0 0 70%;
+    
+}
+
+&-m2 {
+    font-size: 30px;
+    flex:1 0 auto;    
+    flex-flow: row wrap;
+}
+
+&-list-bigger-item2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+&-list {
+    display: flex;
+}
+
+&-list-item1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+&-list-item-tag {
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+&-list-item2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+
+&-list-item3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+    
+}
+
+
+}
